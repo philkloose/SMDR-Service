@@ -15,6 +15,7 @@ namespace SMDR_Service
         /// </summary>
         static void Main()
         {
+            ReadAllSettings();
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
